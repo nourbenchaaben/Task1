@@ -1,1 +1,3 @@
 what git commands did you use 
+Fork: Use GitHub's "Fork" button.
+clone: git clone "......"

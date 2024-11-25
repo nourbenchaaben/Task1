@@ -1,2 +1,1 @@
-i clicked fork in git hub then copied the http link and cloned it in vscode
-
+hi

@@ -8,14 +8,14 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
-  color: #333;
+  color: blueviolet;
   padding: 20px;
 }
 
 header {
   text-align: center;
-  background-color: #4400ff;
-  color: white;
+  background-color: antiquewhite;
+  color: chocolate;
   padding: 20px;
 }
 
@@ -47,5 +47,5 @@ footer {
 }
 
 footer a {
-  color: #4CAF50;
+  color: blue;
 }

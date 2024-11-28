@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 what git commands did you use 
 Fork: Use GitHub's "Fork" button.
 clone: git clone "......"
+=======
+isaam salma holla la la la lo
+>>>>>>> 8efd31452cbd84d83e4d0e872fe9c8ff1cddf064

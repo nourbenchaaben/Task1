@@ -1,51 +1,93 @@
-/* Basic Reset */
+/* Fundamental CSS Concepts */
+
+/* Reset styles for a consistent look across browsers */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  margin: 0; /* Removes default margins */
+  padding: 0; /* Removes default padding */
+  box-sizing: border-box; /* Includes padding and border in width/height */
 }
 
+/* Styling for the body (global styles) */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
-  padding: 20px;
+  font-family: Arial, sans-serif; /* Sets the font style for text */
+  background-color: #f4f4f4; /* Light gray background color */
+  color: #333; /* Dark gray text color */
+  padding: 20px; /* Adds spacing around the body */
 }
 
+/* Header styles */
 header {
-  text-align: center;
-  background-color: #4CAF50;
-  color: white;
-  padding: 20px;
+  text-align: center; /* Centers text in the header */
+  background-color: #4caf50; /* Green background */
+  color: white; /* White text */
+  padding: 20px; /* Spacing inside the header */
 }
 
 header h1 {
-  margin-bottom: 10px;
+  margin-bottom: 10px; /* Adds spacing below the main heading */
 }
 
+/* Bio Section */
 .bio {
-  display: flex;
-  align-items: center;
-  margin-top: 20px;
-  margin-left: 20px;
+  display: flex; /* Aligns content in a row */
+  align-items: center; /* Vertically centers items */
+  margin-top: 20px; /* Adds spacing above the section */
 }
 
 .bio img {
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  margin-right: 20px;
+  border-radius: 50%; /* Makes the image circular */
+  width: 100px; /* Sets image width */
+  height: 100px; /* Sets image height */
+  margin-right: 20px; /* Spacing to the right of the image */
 }
 
-.bio p {
-  max-width: 500px;
+/* Skills Section */
+.skills {
+  margin-top: 20px; /* Adds spacing above the section */
 }
 
+.skills ul {
+  list-style: none; /* Removes bullets from the list */
+  padding-left: 20px; /* Adds padding for indentation */
+}
+
+.skills li {
+  margin-bottom: 5px; /* Adds spacing between list items */
+}
+
+/* Portfolio Section */
+.portfolio {
+  margin-top: 20px; /* Adds spacing above the section */
+}
+
+.portfolio a {
+  color: #4caf50; /* Green link color */
+  text-decoration: none; /* Removes underline from links */
+}
+
+.portfolio a:hover {
+  text-decoration: underline; /* Adds underline on hover */
+}
+
+/* Footer Section */
 footer {
-  text-align: center;
-  margin-top: 40px;
+  text-align: center; /* Centers text in the footer */
+  margin-top: 40px; /* Adds spacing above the footer */
 }
 
 footer a {
-  color: #4CAF50;
+  color: #4caf50; /* Green link color */
+}
+
+/* Responsive Design */
+/* Adjust layout for screens smaller than 600px */
+@media (max-width: 600px) {
+  .bio {
+    flex-direction: column; /* Stacks items vertically */
+    align-items: flex-start; /* Aligns items to the left */
+  }
+
+  .bio img {
+    margin-bottom: 10px; /* Adds spacing below the image */
+  }
 }

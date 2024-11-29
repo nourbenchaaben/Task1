@@ -1,0 +1,81 @@
+
+Introduction to Web Development
+1. What is Web Development?
+Web development is the process of creating websites and applications for the internet. It consists of three layers:
+
+Frontend (Client-side): What the user sees and interacts with (HTML, CSS, JavaScript).
+Backend (Server-side): Logic, databases, and APIs running on servers.
+Full Stack: Combination of both frontend and backend.
+Analogy:
+"A website is like a restaurant: the frontend is the decor and menu, while the backend is the kitchen where food is prepared."
+
+2. Key Concepts of Web Development
+2.1. How the Web Works
+Client and Server
+
+Client: The browser or app on your device sending requests for webpages.
+Server: A computer that stores and serves website files (HTML, CSS, JavaScript).
+Example Workflow:
+
+You type www.example.com in your browser (client).
+The browser sends a request to the server.
+The server sends back an HTML document, which your browser displays.
+2.2. DNS (Domain Name System)
+What it does: Converts a domain name (www.google.com) into its IP address (192.168.1.1).
+Why it's important: Computers communicate using IP addresses, not human-readable names.
+Example:
+You type www.facebook.com.
+DNS finds its IP address and connects you to Facebook’s server.
+2.3. HTTP/HTTPS (HyperText Transfer Protocol)
+The protocol for communication between clients and servers.
+HTTP: Unsecured; data can be intercepted.
+HTTPS: Secured with encryption for safe data transmission.
+Example: HTTPS is used for bank websites to protect sensitive information.
+2.4. URL Breakdown
+Example URL: https://www.example.com/page?query=1
+
+https: Protocol (how data is sent).
+www.example.com: Domain name (address of the website).
+/page: Specific resource or file being requested.
+?query=1: Query parameters (optional data sent to the server).
+3. Relations Between Web Development Components
+HTML: Provides the structure of a webpage. Think of it as the building blocks.
+Example: Headers, paragraphs, and images.
+CSS: Defines the styling and design. Think of it as the paint and decor.
+Example: Colors, fonts, and layouts.
+JavaScript: Adds interactivity. Think of it as the brain.
+Example: Clicking a button triggers an animation.
+4. Client-Server Interaction
+Step 1: You open a browser and type a URL.
+Step 2: DNS translates the URL into an IP address.
+Step 3: The browser sends an HTTP request to the server.
+Step 4: The server sends back the requested HTML file.
+Step 5: The browser renders the webpage using HTML, CSS, and JavaScript.
+Transition to Practical Session: HTML Basics
+HTML Basics with Portfolio Example
+1. What is HTML?
+HTML (HyperText Markup Language) is the structure of a webpage.
+It uses tags to define different elements like headings, images, and links.
+
+
+Understanding Key Details
+Request Method:
+
+Examples: GET, POST, PUT, DELETE.
+GET is used to retrieve data, while POST is for sending data.
+Status Code:
+
+Check the response for status codes like 200 (OK), 404 (Not Found), 500 (Server Error).
+Headers:
+
+Provide metadata about the request and response, like the content type and user agent.
+Payload:
+
+For POST or PUT, inspect the payload (request body) to see the data sent to the server.
+Response:
+
+Check the Response tab to view the server's reply, often in JSON or HTML format.
+
+
+
+
